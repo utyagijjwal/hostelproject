@@ -55,16 +55,6 @@ const About = () => {
           </div>
         </div>
 
-        {/* Image Gallery Section */}
-        <div className="my-12">
-          <h3 className="text-3xl font-bold text-center text-red-600 mb-8">Life at PTU Hostel</h3>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-            <img className="rounded-lg shadow-lg" src="https://images.unsplash.com/photo-1555255697-f0c90fddd3e1" alt="Hostel Exterior" />
-            <img className="rounded-lg shadow-lg" src="https://images.unsplash.com/photo-1524386322425-51bfc80b2600" alt="Mess and Dining Area" />
-            <img className="rounded-lg shadow-lg" src="https://images.unsplash.com/photo-1582719478176-c4edfa5b2664" alt="Student Events" />
-          </div>
-        </div>
-
         {/* CTA Section */}
         <div className="bg-red-600 text-white p-8 rounded-lg shadow-lg text-center mt-12">
           <h3 className="text-3xl font-bold">Want to be a part of PTU Hostel?</h3>

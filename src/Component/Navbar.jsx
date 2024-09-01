@@ -47,14 +47,14 @@ const Navbar = () => {
               </Link>
             
             <Link
-              to="/about>"
+              to="/about"
                 className="text-white text-lg hover:bg-red-700 py-2 px-4 rounded-md transition duration-300"
               >
                 About Us
               </Link>
             
             <Link
-              to="/gallaries"
+              to="/galleries"
                 className="text-white text-lg hover:bg-red-700 py-2 px-4 rounded-md transition duration-300"
               >
                 Galleries
