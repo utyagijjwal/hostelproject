@@ -16,18 +16,19 @@ const Contact = () => {
     };
 
     return (
-        <div className="min-h-screen flex items-center justify-center bg-red-500 ">
+        <div className="min-h-screen flex items-center justify-center bg-red-500">
             <div className="bg-white p-8 rounded-lg shadow-lg w-full max-w-lg">
                 <h2 className="text-3xl font-extrabold text-center mb-6 text-gray-900">Get in Touch</h2>
                 <p className="text-center text-gray-600 mb-8">We would love to hear from you! Please fill out the form below.</p>
                 <form 
-                    action="https://formspree.io/f/mqazjzbd"
+                    action="https://formspree.io/f/meojnbbe"
                     method="POST"
                 >
-                    {/* Hidden fields to include contact number and your email */}
+                    {/* If you need a custom subject, you can keep this hidden field */}
                     <input type="hidden" name="_subject" value="New Contact Form Submission" />
-                    <input type="hidden" name="_email" value="utyagi2003@gmail.com" />
-                    <input type="hidden" name="contact_number" value="9254541982" />
+                    
+                    {/* Contact Number could be added as a visible field */}
+                    {/* <input type="hidden" name="contact_number" value="9254541982" /> */}
 
                     <div className="mb-4">
                         <label htmlFor="name" className="block text-gray-700 text-sm font-semibold mb-2">

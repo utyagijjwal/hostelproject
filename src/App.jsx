@@ -8,6 +8,8 @@ import Galleries from './Pages/Galleries';
 
 import Footer from './Component/Footer'; // Ensure path and component case matches
 import Contact from './Pages/Contact';
+import Register from './Pages/Register';
+import Login from './Pages/Login';
 
 function App() {
   return (
@@ -18,6 +20,8 @@ function App() {
         <Route path="/about" element={<About/>}/>
         <Route path="/galleries" element={<Galleries/>}/>
         <Route path="/contact" element={<Contact/>}/>
+        <Route path="/register" element={<Register/>}/>
+        <Route path="/login" element={<Login/>}/>
        
       </Routes>
       <Footer />
