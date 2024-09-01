@@ -1,10 +1,11 @@
 import React from 'react';
 import Image1 from '../Assests/image1.png';
-// import Image2 from '/Assets/image2.jpg';
-// import Image3 from '/Assets/image3.jpg';
-// import Image4 from '/Assets/image4.jpg';
-// import Image5 from '/Assets/image5.jpg';
-// import Image6 from '/Assets/image6.jpg';
+import Image2 from '../Assests/room.png';
+import Image3 from '../Assests/mess.png';
+import Image4 from '../Assests/studyroom.jpg';
+import Image5 from '../Assests/gym.jpg';
+import Image6 from '../Assests/commonroom.jpg'
+
 
 const Galleries = () => {
   return (
@@ -30,7 +31,7 @@ const Galleries = () => {
         <div className="group relative overflow-hidden rounded-lg shadow-lg cursor-pointer">
           <img
             className="transform group-hover:scale-110 transition-transform duration-500 w-full h-64 object-cover"
-            src={Image1}
+            src={Image2}
             alt="Hostel Exterior"
           />
           <div className="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-500">
@@ -40,7 +41,7 @@ const Galleries = () => {
         <div className="group relative overflow-hidden rounded-lg shadow-lg cursor-pointer">
           <img
             className="transform group-hover:scale-110 transition-transform duration-500 w-full h-64 object-cover"
-            src={Image1}
+            src={Image3}
             alt="Hostel Exterior"
           />
           <div className="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-500">
@@ -50,7 +51,7 @@ const Galleries = () => {
         <div className="group relative overflow-hidden rounded-lg shadow-lg cursor-pointer">
           <img
             className="transform group-hover:scale-110 transition-transform duration-500 w-full h-64 object-cover"
-            src={Image1}
+            src={Image4}
             alt="Hostel Exterior"
           />
           <div className="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-500">
@@ -60,7 +61,7 @@ const Galleries = () => {
         <div className="group relative overflow-hidden rounded-lg shadow-lg cursor-pointer">
           <img
             className="transform group-hover:scale-110 transition-transform duration-500 w-full h-64 object-cover"
-            src={Image1}
+            src={Image5}
             alt="Hostel Exterior"
           />
           <div className="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-500">
@@ -70,7 +71,7 @@ const Galleries = () => {
         <div className="group relative overflow-hidden rounded-lg shadow-lg cursor-pointer">
           <img
             className="transform group-hover:scale-110 transition-transform duration-500 w-full h-64 object-cover"
-            src={Image1}
+            src={Image6}
             alt="Hostel Exterior"
           />
           <div className="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-500">

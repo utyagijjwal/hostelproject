@@ -7,6 +7,7 @@ import About from './Pages/About';
 import Galleries from './Pages/Galleries';
 
 import Footer from './Component/Footer'; // Ensure path and component case matches
+import Contact from './Pages/Contact';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Route path="/" element={<Home/>}/>
         <Route path="/about" element={<About/>}/>
         <Route path="/galleries" element={<Galleries/>}/>
+        <Route path="/contact" element={<Contact/>}/>
        
       </Routes>
       <Footer />
