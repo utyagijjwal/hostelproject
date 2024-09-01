@@ -2,17 +2,19 @@ import React from 'react';
 
 const Galleries = () => {
   const galleryImages = [
-    { src: '/Assests/image1.png', alt: 'Hostel Exterior' }, // Update path here
-    // { src: '/path-to-image2.jpg', alt: 'Hostel Room' },
-    // { src: '/path-to-image3.jpg', alt: 'Mess Hall' },
-    // { src: '/path-to-image4.jpg', alt: 'Study Area' },
-    // { src: '/path-to-image5.jpg', alt: 'Gym' },
-    // { src: '/path-to-image6.jpg', alt: 'Common Room' },
+    { src: '/Assets/image1.png', alt: 'Hostel Exterior' }, // Update path here
+    // { src: '/Assets/image2.jpg', alt: 'Hostel Room' },
+    // { src: '/Assets/image3.jpg', alt: 'Mess Hall' },
+    // { src: '/Assets/image4.jpg', alt: 'Study Area' },
+    // { src: '/Assets/image5.jpg', alt: 'Gym' },
+    // { src: '/Assets/image6.jpg', alt: 'Common Room' },
   ];
 
   return (
     <div className="min-h-screen bg-gray-100 py-10 px-4">
-      <h1 className="text-4xl font-bold text-center text-gray-800 mb-6">Punjab Technical University Hostel Gallery</h1>
+      <h1 className="text-4xl font-bold text-center text-gray-800 mb-6">
+        Punjab Technical University Hostel Gallery
+      </h1>
       <p className="text-center text-lg text-gray-600 mb-10">
         Explore the hostel facilities and see where our students live, study, and relax!
       </p>

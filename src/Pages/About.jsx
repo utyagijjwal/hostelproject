@@ -1,10 +1,14 @@
 import React from "react";
+import ImageAbout from "../Assests/images.jpg";
 
 const About = () => {
   return (
     <div className="min-h-screen bg-gray-100">
       {/* Hero Section */}
-      <div className="relative bg-cover bg-center h-96" style={{ backgroundImage: `url('https://images.unsplash.com/photo-1503264116251-35a269479413')` }}>
+      <div
+        className="relative bg-cover bg-center h-96"
+        style={{ backgroundImage: `url(${ImageAbout})` }} // Corrected background image syntax
+      >
         <div className="absolute inset-0 bg-black opacity-50"></div>
         <div className="absolute inset-0 flex flex-col justify-center items-center text-center text-white">
           <h1 className="text-4xl md:text-6xl font-bold">About PTU Hostel</h1>
@@ -16,7 +20,9 @@ const About = () => {
       <div className="max-w-7xl mx-auto py-12 px-6 lg:px-8">
         {/* Welcome Section */}
         <div className="text-center mb-12">
-          <h2 className="text-3xl md:text-5xl font-bold text-red-600">Welcome to Punjab Technical University Hostel</h2>
+          <h2 className="text-3xl md:text-5xl font-bold text-red-600">
+            Welcome to Punjab Technical University Hostel
+          </h2>
           <p className="mt-4 text-lg md:text-xl text-gray-700">
             Our hostel provides the perfect environment for students to live, learn, and grow. We offer modern facilities,
             comfortable rooms, and a friendly community where students can thrive.
