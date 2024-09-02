@@ -19,16 +19,22 @@ const Contact = () => {
         <div className="min-h-screen flex items-center justify-center bg-red-500">
             <div className="bg-white p-8 rounded-lg shadow-lg w-full max-w-lg">
                 <h2 className="text-3xl font-extrabold text-center mb-6 text-gray-900">Get in Touch</h2>
-                <p className="text-center text-gray-600 mb-8">We would love to hear from you! Please fill out the form below.</p>
+                <p className="text-center text-gray-600 mb-8">
+                   
+                    <br />
+                    For any complaints, you can also contact our warden:
+                    <br />
+                    <strong>Rakesh Goyal</strong>
+                    <br />
+                    Phone: 9465884826
+                    <br />
+                    Email: drrakeshgoyal15@gmail.com
+                </p>
                 <form 
                     action="https://formspree.io/f/meojnbbe"
                     method="POST"
                 >
-                    {/* If you need a custom subject, you can keep this hidden field */}
                     <input type="hidden" name="_subject" value="New Contact Form Submission" />
-                    
-                    {/* Contact Number could be added as a visible field */}
-                    {/* <input type="hidden" name="contact_number" value="9254541982" /> */}
 
                     <div className="mb-4">
                         <label htmlFor="name" className="block text-gray-700 text-sm font-semibold mb-2">
@@ -60,22 +66,7 @@ const Contact = () => {
                             required
                         />
                     </div>
-                    <div className="mb-4">
-                        <label htmlFor="subject" className="block text-gray-700 text-sm font-semibold mb-2">
-                            Subject
-                        </label>
-                        <input
-                            type="text"
-                            id="subject"
-                            name="subject"
-                            value={formData.subject}
-                            onChange={handleChange}
-                            className="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-400"
-                            placeholder="Subject"
-                            required
-                        />
-                    </div>
-                    <div className="mb-6">
+                                        <div className="mb-6">
                         <label htmlFor="message" className="block text-gray-700 text-sm font-semibold mb-2">
                             Message
                         </label>
